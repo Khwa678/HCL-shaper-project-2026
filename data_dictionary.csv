@@ -1,0 +1,8 @@
+column_name,data_type,sample_value_1,sample_value_2,sample_value_3,nullable,description_fill_in
+session_id,String (Alphanumeric Identifier),S0192,S0968,S0625,No,"Unique alphanumeric session identifier assigned to each support interaction. Essential for maintaining conversation memory state and contextual multi-turn tracking in Redis/in-memory buffer."
+turn_id,Integer (Discrete Sequence),9,8,9,No,"Sequential turn index (1 to 10) denoting the dialogue exchange number within an ongoing session. Used to detect multi-turn loop stalemates and user frustration."
+intent,String (Categorical),returns,complaint,complaint,No,"Classified primary customer intent / topic category (e.g., billing, technical, product_info, complaint, shipping, returns, account) used for intent-based routing and domain RAG document filtering."
+confidence_score,Float (Continuous [0.0 - 1.0]),0.813,0.873,0.679,No,"Natural Language Understanding (NLU) / classification confidence metric. Scores below threshold (e.g. < 0.68) trigger confirmation prompts or automatic human escalation."
+escalated,Integer (Binary Flag 0/1),0,0,0,No,"Binary indicator where 1 denotes the conversation turn triggered a handoff/escalation to a human tier-2 support agent, and 0 denotes automated resolution by the chatbot."
+satisfaction_score,Integer (Ordinal Likert 1-5),4,4,4,No,"Post-interaction Customer Satisfaction (CSAT) score rating ranging from 1 (Very Dissatisfied) to 5 (Very Satisfied), serving as the core business success metric."
+response_time_ms,Integer (Continuous Latency),713,2733,4998,No,"System response latency measured in milliseconds from user query ingestion to final LLM output generation (including retrieval latency and token streaming)."

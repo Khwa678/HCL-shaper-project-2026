@@ -1,0 +1,134 @@
+[
+  {
+    "id": "faq_001",
+    "category": "billing",
+    "question": "How do I update my payment method or credit card on file?",
+    "answer": "You can update your payment method by navigating to Account Settings > Billing & Payments > Payment Methods. Click 'Add New Card' or edit your existing payment details. All transactions are secured using 256-bit SSL encryption."
+  },
+  {
+    "id": "faq_002",
+    "category": "billing",
+    "question": "What is your refund policy, and how long does a refund take?",
+    "answer": "Refunds are processed within 3 to 5 business days upon request approval. Depending on your financial institution, it may take an additional 2 to 7 business days to appear on your bank or credit card statement."
+  },
+  {
+    "id": "faq_003",
+    "category": "billing",
+    "question": "Why was I charged twice for my subscription this month?",
+    "answer": "Duplicate charges typically occur when an authorization hold is placed alongside the actual settlement, or if a billing retry occurred after a soft decline. If two settled charges appear on your statement, please provide your invoice number so our billing team can issue an immediate reversal."
+  },
+  {
+    "id": "faq_004",
+    "category": "technical",
+    "question": "The application fails to load or shows a white screen. How do I fix it?",
+    "answer": "Please perform a hard refresh (Ctrl + F5 on Windows, Cmd + Shift + R on Mac) and clear your browser cache and cookies. If the issue persists, disable ad-blockers or try incognito mode. Ensure WebGL is enabled in your browser settings."
+  },
+  {
+    "id": "faq_005",
+    "category": "technical",
+    "question": "How do I configure API keys and resolve 401 Unauthorized errors?",
+    "answer": "To configure your API key, visit Developer Settings > API Keys, generate a new bearer token, and add it to your HTTP Authorization header as 'Bearer <YOUR_TOKEN>'. Ensure your key has not expired and holds the necessary workspace read/write scopes."
+  },
+  {
+    "id": "faq_006",
+    "category": "technical",
+    "question": "Where can I check system server status and uptime?",
+    "answer": "Live platform operational status, scheduled maintenance windows, and past incident post-mortems are publicly monitored 24/7 at https://status.platform.example.com."
+  },
+  {
+    "id": "faq_007",
+    "category": "returns",
+    "question": "What is the return window for purchased items?",
+    "answer": "Items in their original condition and packaging are eligible for return or exchange within 30 days of delivery. Digital licenses and downloadable software are non-refundable once activated."
+  },
+  {
+    "id": "faq_008",
+    "category": "returns",
+    "question": "How do I generate a prepaid return shipping label?",
+    "answer": "Log into your account, visit Order History, locate your order, and select 'Initiate Return'. Follow the prompts to select the reason for return and download your prepaid USPS/FedEx return label."
+  },
+  {
+    "id": "faq_009",
+    "category": "shipping",
+    "question": "What are your standard and expedited delivery times?",
+    "answer": "Standard domestic shipping takes 3-5 business days. Expedited 2-day shipping and Next-Day Air are available at checkout for orders placed prior to 2:00 PM EST on business days."
+  },
+  {
+    "id": "faq_010",
+    "category": "shipping",
+    "question": "My tracking status shows 'Delivered' but I haven't received my package.",
+    "answer": "Carriers occasionally scan packages as delivered up to 24 hours prior to actual drop-off. Please check with household members, porch lockboxes, or building reception. If not located after 24 hours, contact us to file an official carrier claim."
+  },
+  {
+    "id": "faq_011",
+    "category": "account",
+    "question": "How do I reset my account password?",
+    "answer": "Click 'Forgot Password' on the login screen, enter your registered email address, and follow the secure password reset link sent to your inbox. Reset links expire within 60 minutes for security."
+  },
+  {
+    "id": "faq_012",
+    "category": "account",
+    "question": "How do I enable Two-Factor Authentication (2FA)?",
+    "answer": "Go to Account Settings > Security > Two-Factor Authentication. Scan the QR code using Google Authenticator, Authy, or Microsoft Authenticator, and enter the 6-digit confirmation code to activate 2FA."
+  },
+  {
+    "id": "faq_013",
+    "category": "product_info",
+    "question": "What are the hardware and operating system requirements?",
+    "answer": "Our software runs smoothly on Windows 10/11 (64-bit), macOS 12 (Monterey) or later, and Ubuntu Linux 20.04+. Recommended hardware: 8 GB RAM, dual-core 2.4GHz processor, and 2 GB free disk space."
+  },
+  {
+    "id": "faq_014",
+    "category": "product_info",
+    "question": "Is there a free trial available for new users?",
+    "answer": "Yes, we offer a full-featured 14-day free trial on the Professional Tier with no credit card required. You can upgrade, downgrade, or cancel at any time during or after the trial."
+  },
+  {
+    "id": "faq_015",
+    "category": "complaint",
+    "question": "How do I file a formal complaint or dispute a service issue?",
+    "answer": "We take customer grievances seriously. You can file a formal complaint through our Executive Support desk by emailing grievances@support.example.com or requesting immediate escalation to a senior duty manager."
+  },
+  {
+    "id": "faq_016",
+    "category": "complaint",
+    "question": "My support ticket has been pending for over 48 hours without resolution.",
+    "answer": "We sincerely apologize for the delay. High-priority tickets not responded to within SLA are automatically flagged for Tier-2 supervisory review. You can request escalation right here to immediately page an on-call specialist."
+  },
+  {
+    "id": "faq_017",
+    "category": "cancellation",
+    "question": "How do I cancel my monthly or annual subscription?",
+    "answer": "You can cancel your subscription at any time under Account Settings > Subscription > Cancel Plan. Your access will remain active until the end of your current paid billing cycle, and no further automatic charges will occur."
+  },
+  {
+    "id": "faq_018",
+    "category": "cancellation",
+    "question": "Will I lose my saved data or projects if I cancel my subscription?",
+    "answer": "Your projects and account data are safely archived in read-only mode for 90 days following cancellation. You can export all your data in JSON/CSV format before closing your account."
+  },
+  {
+    "id": "faq_019",
+    "category": "security",
+    "question": "How do you protect customer data and privacy?",
+    "answer": "All customer data is encrypted in transit using TLS 1.3 and at rest with AES-256 encryption. We comply with SOC 2 Type II, GDPR, and CCPA standards. Customer support conversations are never used to train public LLM models."
+  },
+  {
+    "id": "faq_020",
+    "category": "security",
+    "question": "I suspect unauthorized access or compromise of my account. What should I do?",
+    "answer": "Immediately visit Security Settings and click 'Terminate All Active Sessions'. Reset your master password and rotate API tokens. We will freeze sensitive transaction permissions until verification is confirmed."
+  },
+  {
+    "id": "faq_021",
+    "category": "feedback",
+    "question": "How do I suggest a feature request or product improvement?",
+    "answer": "We welcome customer ideas! Submit feature requests on our Community Roadmap portal at feedback.example.com or share your feedback directly here for our product engineering team to review."
+  },
+  {
+    "id": "faq_022",
+    "category": "feedback",
+    "question": "Where can I leave a review of my support interaction?",
+    "answer": "At the conclusion of each chat session, a 5-star satisfaction survey will prompt you for feedback. Your ratings directly inform our continuous service and model fine-tuning improvements."
+  }
+]
